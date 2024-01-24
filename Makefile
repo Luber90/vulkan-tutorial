@@ -15,3 +15,7 @@ debug:
 
 clean:
 	rm -f Vulkan
+
+Shaders: 
+	glslc shaders/shader.vert -o vert.spv
+	glslc shaders/shader.frag -o frag.spv
